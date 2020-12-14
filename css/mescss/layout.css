@@ -346,3 +346,8 @@ button{
     border-top: solid #08090D 1px;
     padding-top: 25px;
 }
+
+body > video{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
