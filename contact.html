@@ -1,25 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/mescss/layout.css">
     <link rel="stylesheet" href="./css/mescss/typography.css">
     <link rel="stylesheet" href="./css/mescss/menu.css">
-    <title>Accueil</title>
+    <meta charset="UTF-8">
+    <title>Contact</title>
 </head>
-<body class="accueil">
-<header class="header_accueil">
-    <img src="./img/logo_blanc.png" alt="Logo blanc">
-
+<body>
+<header class="headertype">
     <div class="nav-toggle" onclick="document.body.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
+    <a href="index.html">
+        <img src="./img/logo_blanc.png" alt="Logo blanc">
+    </a>
 
     <h1>Real Pollution</h1>
-    <p>Découvrez la face cachée du web.</p>
 </header>
 <nav class="menu">
     <ul>
@@ -32,27 +32,28 @@
         <li><a href="contact.html">Contact</a>
     </ul>
 </nav>
+<h1>Contacte moi</h1>
+<input type="text" id="nom" name="nom"
+       placeholder="Nom"
+       size=53>
+<input type="text" id="prénom" name="prénom"
+       placeholder="Prénom"
+       size=53>
+<input type="text" id="e-mail" name="e-mail"
+       placeholder="E-mail"
+       size=53>
+<input type="text" id="message" name="message"
+       placeholder="Message..."
+       size=53>
 
-<a href="art1.html"><div class="art1">
-    <HR SIZE="6" noshade >
-    <img src="./img/affiche_femme.jpg" alt="Affiche du film">
-    <h3>Real humans, une série innovante</h3>
-    <p>Découvrez la série Real Humans. Une série futuriste et innovante ou des androïdes rêvent d'un peu plus de liberté...<img class="fleche" src="./img/fleche_droite.svg" alt="Lire l'article"> </p>
-    <HR SIZE="6" noshade >
-</div></a>
+<button class="envoyer">Envoyer</button>
 
-<a href="art2.html"><div class="art2">
-    <img src="./img/image_pollution_web.jpg" alt="Image serveur">
-    <h3>Le web un grand acteur de la pollution mondiale</h3>
-    <p>Le web est un plus grand acteur de la pollution que ce que l'on croit. Découvrez sa face caché à travers cet article.<img class="fleche" src="./img/fleche_droite.svg" alt="Lire l'article"> </p>
-    <HR SIZE="6" noshade >
-</div></a>
-
-<a href="art3.html"><div class="art3">
-    <img src="./img/article_3.png" alt="Schema ecologie">
-    <h3>Réduire la pollution numérique</h3>
-    <p>Heureusement, il existe quand même des solutions afin de réduire la pollution numérique. Que ce soit a l'échelle mondial ou personnelle, découvrez les.<img class="fleche" src="./img/fleche_droite.svg" alt="Lire l'article"> </p>
-</div></a>
+<div class="contact">
+<h1>Retrouve moi aussi sur : </h1>
+    <a href="https://www.facebook.com/"><img src="./img/facebook.png" alt="Facebook"></a>
+    <a href="https://www.instagram.com/?hl=fr"><img src="./img/instagram.png" alt="Instagram"></a>
+    <a href="https://twitter.com/home"><img src="./img/twitter.png" alt="Twitter"></a>
+</div>
 
 <footer>
 

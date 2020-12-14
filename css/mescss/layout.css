@@ -1,0 +1,348 @@
+body,body > figure > img,body>div>figure>div.projetgauche>img,body>div>figure>div.projetdroite>img{
+    width: 375px;
+
+}
+body>figure,body>div>figure{
+    margin: 0;
+
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+/*HEADER ACCUEIL*/
+.accueil>header>h1{
+    width: 225px;
+    padding-top: 28px;
+    padding-left: 94px;
+    margin: 0
+}
+.accueil>header>p{
+    padding-top: 48px;
+    padding-left: 20px;
+    margin: 0;
+}
+.header_accueil>img:nth-child(1){
+    width: 59px;
+    height: 64px;
+    float: left;
+    padding-left:20px;
+    padding-top: 13px;
+}
+
+.header_accueil>img:nth-child(2){
+    width: 24px;
+    position: absolute;
+    padding-left: 245px;
+    padding-top: 13px;
+}
+
+body>a>div>hr{
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+body >a>div.art1>hr:nth-child(1){
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+body>a:nth-child(3)>div>img{
+    float: left;
+    width: 188px;
+}
+
+body>a>div>img{
+    margin-left: 20px;
+}
+
+body>a>div.art1>p{
+    padding-bottom: 18px;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body>a>div.art2>h3,body>a>div.art3>h3{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body>a:nth-child(4)>div>img{
+    width: 335px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+footer>p.nom{
+    text-align: center;
+    padding-top: 38px;
+    position: relative;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+footer>p{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+body>footer>a:nth-child(1)>img{
+    display: inline-block;
+    width: 62px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+body>footer>a:nth-child(3)>img{
+    width: 56px;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    padding: 22px 24px 40px 10px;
+}
+
+
+
+.headertype>h1{
+    margin-top: 0;
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+
+body>header>a>img{
+    width: 30px;
+    float: left;
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 20px;
+}
+
+.headertype>img:nth-child(1){
+    width: 24px;
+    position: absolute;
+    padding-left: 330px;
+    padding-top: 13px;
+}
+
+figure{
+   padding-left: 20px;
+ }
+
+body>figure>img{
+    width: 335px;
+}
+body>figure:nth-child(11)>video{
+    width: 335px;
+}
+h2{
+    padding-left: 20px;
+}
+/*Logos autres projets*/
+
+.projetdroite,.projetgauche{
+    display: table-cell;
+    width: 187px;
+}
+
+body > div > figure > div.projetgauche > figcaption,body > div > figure > div.projetdroite > figcaption{
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+/*zeta*/
+body > div > figure > div.projetgauche > a:nth-child(1) > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 168px;
+}
+/*FORTNITE*/
+body > div > figure > div.projetgauche > a:nth-child(5) > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 116px;
+}
+/*DATARECALL*/
+body > div > figure > div.projetgauche > a:nth-child(3) > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 122px;
+}
+/*NETLAB*/
+body > div > figure > div.projetgauche > a:nth-child(7) > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 116px;
+}
+/*BLACKREALITY*/
+body > div > figure > div.projetdroite > a:nth-child(1) > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 102px;
+    padding-bottom: 10px;
+}
+/*ADN TECH*/
+body > div > figure > div.projetdroite > a:nth-child(3) > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 89px;
+}
+/*MYDRUGS*/
+body > div > figure > div.projetdroite > a:nth-child(7) > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+}
+/*BEHIND TW*/
+body > div > figure > div.projetdroite > a:nth-child(5) > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding-top: 52px;
+}
+
+.trait{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #2E2E2E;
+    width: 335px;
+
+}
+
+/*Formulaire*/
+input{
+    border-radius: 0;
+    width: 335px;
+    padding-bottom: 25px;
+    border: 1px solid #08090D;
+    margin-left: 20px;
+    margin-bottom: 14px;
+    box-shadow: 2px 3px 3px rgba(0,0,0,0.55);
+    font-family: 'Inconsolata';
+    font-size: 22px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.envoyer{
+    background-color: #A6142F;
+    border: none;
+    color: white;
+    width: 121px;
+    height: 32px;
+    margin-left: 234px;
+    font-family: 'Poppins';
+    font-size: 19px;
+    margin-top: 18px;
+}
+
+.contact>a>img{
+    width: 70px;
+    margin-right: 22px;
+    margin-left: 29px;
+    margin-bottom: 20px;
+
+}
+input:nth-child(7){
+    padding-bottom: 200px;
+
+
+}
+
+button.envoyer{
+    margin-bottom: 0
+}
+
+/*HEADER*/
+body > header > h1{
+    margin-bottom: 0;
+}
+
+body > div > header > img:nth-child(1) {
+    width: 30px;
+    float: left;
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 20px;
+}
+body > div > header > img:nth-child(2){
+    padding-top: 0;
+}
+
+body > div > a:nth-child(8){
+    padding-bottom: 96px;
+}
+
+body > div > a:nth-child(2){
+    padding-top: 25px;
+}
+
+/*BOUTON SUIVANT*/
+button{
+    margin-left:127px;
+    width: 121px;
+    background-color: #A6142F;
+    border: none;
+    color: white;
+    height: 32px;
+    padding: 0;
+    font-family: 'Poppins';
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+
+/*FLECHES TWEETS*/
+.fleche{
+    width: 15px;
+    height: 12px;
+    padding-left: 5px;
+}
+
+/*GALERIE*/
+.galerie > figure > img{
+    width: 130px;
+
+}
+
+.galerie > figure {
+    display: inline-block;
+    padding-left: 0;
+    padding-bottom: 25px;
+
+}
+
+.galerie{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.galerie > figure:nth-child(2),.galerie > figure:nth-child(4){
+    padding-right: 65px;
+}
+
+.galerie>h1{
+    padding-bottom: 10px;
+    border-top: solid #08090D 1px;
+    padding-top: 25px;
+}

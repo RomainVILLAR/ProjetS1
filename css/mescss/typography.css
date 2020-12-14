@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Montserrat:wght@200;300;400&family=Poppins:wght@300;400;600&family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+h1{
+    font-family: "Montserrat" ;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+}
+
+figcaption{
+    font-family: 'Inconsolata';
+    font-size: 14px;
+}
+footer{
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+footer>.nom{
+    font-size: 16px;
+}
+.accueil{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: white;
+    background-color: #08090D;
+}
+body>a> div>h3{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 17px;
+}
+HR{
+    background-color: white;
+    border: none;
+}
+.accueil>header{
+    background-image: url("../lib/tete_rouge.png");
+    background-size: 375px;
+    background-repeat: no-repeat;
+    height: 153px;
+}
+.accueil>header>p{
+    font-family: "Poppins";
+    font-weight: 300;
+
+}
+
+.accueil>header>h1{
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.accueil>footer, footer{
+    background-color: #D9D0CB;
+    color: black;
+}
+
+p{
+    line-height: 25px;
+}
+
+body>p>a,footer>p>a,body>figure>figcaption>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header{
+    background-color: black;
+}
+
+header>h1{
+    color: white;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+
+.accueil>a{
+    color: white;
+    text-decoration: none;
+}
+
+body>p:nth-child(4){
+    text-indent: 10px;
+}
+
+
+
+
+
