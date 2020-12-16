@@ -2,12 +2,12 @@ body,body > figure > img,body>div>figure>div.projetgauche>img,body>div>figure>di
     width: 375px;
 
 }
-body>figure,body>div>figure{
+body>figure,body>div>figure,body{
     margin: 0;
 
 }
 
-body{
+html{
     margin: 0;
     overflow-x: hidden;
 }
